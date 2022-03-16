@@ -1,27 +1,18 @@
 #include "main.h"
 /**
- * _abs - number
- * description - compute abs value
- * Return: always 0
+ * _abs - absolute value
+ * @r: input value
+ * description - absolute value of a number
+ * Return: k
 **/
 
-int _abs(int)
+int _abs(int r)
 {
-	int r;
+	int k;
 
-	if (r > 0)
-	{
-		_putchar(p);
-		return (1);
-	}
-	else if (n < 0)
-	{
-		_putchar(nn);
-		return (-1);
-	}
+	if (r < 0)
+		k = 0 - r;
 	else
-	{
-		_putchar(z);
-		return (0);
-	}
+		k = r;
+	return (k);
 }
