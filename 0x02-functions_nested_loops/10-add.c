@@ -4,7 +4,7 @@
  * @a: number one
  * @b: number two
  * description - fun adds to integers
- * Return: 0
+ * Return: n
 **/
 
 int add(int a, int b)
