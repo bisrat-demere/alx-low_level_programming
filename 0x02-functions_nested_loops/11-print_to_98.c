@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - until 98
  * @n: input number
@@ -7,14 +8,16 @@
 
 void print_to_98(int n)
 {
-	int x;
-	char y = ',';
-	char z = ' ';
-
-	for (x = n; x <= 98; x++)
+	if (n < 98)
 	{
-		_putchar('0' + x);
-		_putchar(y);
-		_putchar(z);
+		for (; n <= 98; n++)
+			printf("%i, ", n);
+		printf("\n");
+	}
+	else
+	{
+		for (; n >= 98; n--)
+			printf("%i, ", n);
+		printf("\n");
 	}
 }
