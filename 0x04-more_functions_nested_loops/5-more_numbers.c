@@ -7,45 +7,20 @@
 
 void more_numbers(void)
 {
-	int n = 0;
+	int a, b, c;
 
-	while (n < 10)
+	for (b = 1; b <= 10; b++)
 	{
-		int alph = 0, a = 0, b = 1, c = 2, d = 3, e = 4;
-
-		while (alph <= 14)
+		for (c = 0; c <= 14; c++)
 		{
-			if (alph < 10)
-				_putchar(alph + '0');
-			else if (alph < 11)
+			a = c;
+			if (c > 9)
 			{
-				_putchar(b + '0');
-				_putchar(a + '0');
+				_putchar(1 + 48);
+				a = c % 10;
 			}
-			else if (alph < 12)
-			{
-				_putchar(b + '0');
-				_putchar(b + '0');
-			}
-			else if (alph < 13)
-			{
-				_putchar(b + '0');
-				_putchar(c + '0');
-			}
-			else if (alph < 14)
-			{
-				_putchar(b + '0');
-				_putchar(d + '0');
-			}
-			else if (alph < 15)
-			{
-				_putchar(b + '0');
-				_putchar(e + '0');
-			}
-			alph++;
+			_putchar(a + 48);
 		}
 		_putchar('\n');
-		n++;
 	}
 }
-
