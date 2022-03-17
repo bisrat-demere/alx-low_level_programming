@@ -24,8 +24,8 @@ void more_numbers(void)
 			}
 			else if (alph < 12)
 			{
-			_putchar(b + '0');
-			_putchar(b + '0');
+				_putchar(b + '0');
+				_putchar(b + '0');
 			}
 			else if (alph < 13)
 			{
