@@ -4,7 +4,7 @@
  * @n: number of size
 **/
 
-void print_square(int n)
+void print_line(int n)
 {
 	int i;
 
