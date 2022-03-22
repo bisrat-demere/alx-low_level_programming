@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strcpy - a function that copies the string
  *        pointed to by `src` including the null byte
@@ -14,11 +15,6 @@ char *_strcpy(char *dest, char *src)
 {
 	int c;
 
-	for (c = 0; src[c];)
-	{
-		dest[c] = src[c];
-		c++;
-	}
-
+	strcpy(dest,src);
 	return (dest);
 }
