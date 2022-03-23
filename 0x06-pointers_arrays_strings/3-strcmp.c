@@ -6,7 +6,7 @@
  * @s2: char two
  * @n: count
  * @a output
- * Return: a
+ * Return: 0
 **/
 
 int _strcmp(char *s1, char *s2)
