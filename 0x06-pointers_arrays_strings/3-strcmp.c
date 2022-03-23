@@ -19,10 +19,7 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 		{
-			if (strcmp(s1, s2) < 0)
-				a = (s1[n] - s2[n]);
-			else
-				a = (s1[n] - s2[n]);
+			a = (s1[n] - s2[n]);
 			break;
 		}
 		n++;
