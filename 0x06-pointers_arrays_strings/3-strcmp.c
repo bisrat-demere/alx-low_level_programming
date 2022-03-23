@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (strcmp(s1, s2) == 0)
 		{
-			a = 0;
+			a = (s1[n] - s2[n]);
 		}
 		else
 		{
