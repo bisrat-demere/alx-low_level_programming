@@ -9,10 +9,23 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	if (strcmp(s1, s2) < 0)
-		return (-15);
-	else if (strcmp(s1, s2) > 0)
-		return (15);
-	else
-		return (0);
+	int n = 0, a;
+
+	while (n <= 100)
+	{
+		if (strcmp(s1, s2) == 0)
+		{
+			a = 0;
+			n++;
+		}
+		else
+		{
+			if (strcmp(s1, s2) < 0)
+				a = (s1[n] - s2[n]);
+			else
+				a = (s1[n] - s2[n]);
+			break;
+		}
+	}
+	return (a);
 }
