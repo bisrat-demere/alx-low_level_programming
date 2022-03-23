@@ -4,7 +4,9 @@
  * _strcmp - compare
  * @s1: char one
  * @s2: char two
- * Return: 0
+ * @n: count
+ * @a output
+ * Return: a
 **/
 
 int _strcmp(char *s1, char *s2)
