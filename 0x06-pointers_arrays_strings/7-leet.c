@@ -15,7 +15,10 @@ char *leet(char *g)
 	for (n = 0; g[n] != '\0'; n++)
 	{
 		if (g[n] == low[n] || g[n] == up[n])
+		{
 			g[n] = num[n];
+			break;
+		}
 	}
 	return (g);
 }
