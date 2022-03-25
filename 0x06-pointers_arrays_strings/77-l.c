@@ -7,22 +7,22 @@
 
 char *leet(char *g)
 {
-	int i, c = 0;
+	int n, i = 0;
 	int low[] = {97, 101, 111, 116, 108};
 	int up[] = {65, 69, 79, 84, 76};
 	int num[] = {52, 51, 48, 55, 49};
 
-	while (g[c] != '\0')
+	for (n = 0; g[n] != '\0'; n++)
 	{
-		for (i = 0; i < 5; i++)
+		while (i < 5)
 		{
-			if (g[c] == low[i] || g[c] == up[i])
+			if (g[n] == low[i] || g[n] == up[i])
 			{
-				g[c] = num[i];
+				g[n] = num[i];
 				break;
 			}
+			i++;
 		}
-		c++;
 	}
-	return (s);
+	return (g);
 }
