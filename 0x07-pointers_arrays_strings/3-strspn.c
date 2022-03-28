@@ -2,8 +2,8 @@
 /**
  * _strspn - a fun
  * @s: pntr
- * @accept: substring 
- * Return: the number 
+ * @accept: substring
+ * Return: the number
 */
 
 unsigned int _strspn(char *s, char *accept)
@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (s[i] != '\0')
 	{
 		j = 0;
-		f = 1; 
+		f = 1;
 		while (accept[j] != '\0')
 		{
 			if (s[i] == accept[j])

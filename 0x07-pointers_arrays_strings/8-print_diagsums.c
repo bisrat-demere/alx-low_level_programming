@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - print the sum 
- * @a:  pntr
+ * print_diagsums - print the sum
+ * @a: pntr
  * @size: sz matrix
  * Return: nothing
 */
