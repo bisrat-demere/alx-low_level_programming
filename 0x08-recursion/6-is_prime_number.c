@@ -18,7 +18,6 @@ int prime(int n, int i)
 	else
 		return (1);
 }
-
 int is_prime_number(int n)
 {
 	if (n < 0)
