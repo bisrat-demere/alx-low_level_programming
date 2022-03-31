@@ -1,10 +1,10 @@
-#incliude "main.h"
+#include "main.h"
 /**
  * prime - function
  * @n: the number
  * @i: the number
  * Return: Always 0
- */
+**/
 
 int prime(int n, int i)
 {
@@ -18,13 +18,6 @@ int prime(int n, int i)
 	else
 		return (1);
 }
-
-/**
-* is_prime_number - function
-*
-* @n: the number
-* Return: Always 0.
-*/
 
 int is_prime_number(int n)
 {
