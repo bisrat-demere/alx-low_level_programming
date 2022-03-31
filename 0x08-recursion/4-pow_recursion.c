@@ -1,17 +1,25 @@
 #include "main.h"
 /**
-* factorial - function
-*
-* @n: the number
-* Return: Always 0.
+ * _pow_recursion - a function that returns the power of @x by @y x^y
+ * @x: int x
+ * @y: int y
+ *
+ * Return: the power of @x by @y
 */
 
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n < 0)
+	int even;
+
+	if (y < 0)
 		return (-1);
-	else if (n == 0 || n == 1)
+	else if (y == 0)
 		return (1);
+	else if (y % 2 == 0)
+	{
+		even = _pow_recursion(x, y / 2);
+		return (even * even);
+	}
 	else
-		return (n * factorial(n - 1));
+		return (x * _pow_recursion(x, y - 1));
 }
