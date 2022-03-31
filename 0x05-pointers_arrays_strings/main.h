@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char);
 void reset_to_98(int *n);
