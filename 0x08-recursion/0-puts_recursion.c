@@ -1,14 +1,8 @@
 #include "main.h"
 /**
- *
  *_puts_recursion - function
- *
- *
- *
  *@s: the chaine
- *
- *Return: Always 0.
- *
+ *Return: Always 0
 **/
 
 void _puts_recursion(char *s)
