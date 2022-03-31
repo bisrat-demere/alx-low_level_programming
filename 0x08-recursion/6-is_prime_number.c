@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * prime - identify prime num
  * is_prime_number - function
  * @n: the number
  * @i: the number
