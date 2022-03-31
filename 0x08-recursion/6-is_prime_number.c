@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * prime - function
+ * is_prime_number - function
  * @n: the number
  * @i: the number
  * Return: Always 0
