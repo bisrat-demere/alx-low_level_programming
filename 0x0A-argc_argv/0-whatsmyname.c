@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_arg - function
+ *main - function
  *@argc: int
  *@argv: string
  *Return: 0
