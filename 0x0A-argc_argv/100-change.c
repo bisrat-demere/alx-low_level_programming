@@ -8,29 +8,29 @@
 
 int coin(int x)
 {
-        int c = 0;
+	int c = 0;
 
-        while (x > 0)
-        {
-                if (x >= 25)
-                {
-                        c++;
-                        x = x - 25;
-                }
-                else if (x >= 10)
-                {
-                        c++;
-                        x = x - 10;
-                }
-                else if (x >= 5)
-                {
-                        c++;
-                        x = x - 5;
-                }
-                else if (x >= 2)
-                {
+	while (x > 0)
+	{
+		if (x >= 25)
+		{
 			c++;
-			x = x -2;
+			x = x - 25;
+		}
+		else if (x >= 10)
+		{
+			c++;
+			x = x - 10;
+		}
+		else if (x >= 5)
+		{
+			c++;
+			x = x - 5;
+		}
+		else if (x >= 2)
+		{
+			c++;
+			x = x - 2;
 		}
 		else
 		{
