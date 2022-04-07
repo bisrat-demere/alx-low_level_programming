@@ -1,9 +1,15 @@
-#include "main.h"
+#include <main.h>
 #include <stdlib.h>
+
 /**
- * _strdup - function 
- * @str: char
- * Return: NULL **/
+ * *_strdup - a function that duplicates a string
+ *
+ * @str: input string to duplicate
+ *
+ * Return: NULL if str == NULL
+ *         @str
+*/
+
 char *_strdup(char *str)
 {
 	int i = 0, l = 0;
@@ -11,8 +17,10 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
+
 	while (str[l] != '\0')
 		l++;
+
 	s = malloc((l + 1) * sizeof(char));
 	if (s == NULL)
 		return (NULL);
