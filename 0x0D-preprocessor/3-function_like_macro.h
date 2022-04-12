@@ -1,17 +1,4 @@
-#include <stdio.h>
-
-#ifndef ABS
-#define ABS(X) X
+#ifndef _FUNCTION_LIKE_MAECRO_H
+#define _FUNCTION_LIKE_MAECRO_H
+#define ABS(x) (((x) >= 0) ? (x) : -(x))
 #endif
-
-int main(void)
-{
-	int y;
-
-	y = ABS(X);
-	if (y < 0)
-		y = 0 - x;
-	else
-		y = y;
-	return (x);
-}
