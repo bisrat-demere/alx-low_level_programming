@@ -18,8 +18,3 @@ main:
 section .data
    message: db "Hello, Holberton", 0
   	format: db "%s", 10, 0
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-
