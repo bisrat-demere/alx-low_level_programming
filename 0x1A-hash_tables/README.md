@@ -1,1 +1,1 @@
-Hash tables in Algorithm
+0x1A HashTables
